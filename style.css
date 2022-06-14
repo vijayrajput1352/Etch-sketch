@@ -1,0 +1,31 @@
+html{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    user-select: none;
+ }
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+    padding: 0px;
+    border: 2px solid red;
+    width: 700px;
+    height: 650px;
+}
+div{
+    margin: 0px;
+    padding: 0%;
+    border: 1px solid;
+}
+button{
+    color: azure;
+    background-color:rgb(56, 53, 48);
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+    border: none;
+    font-size: 20px;
+}
